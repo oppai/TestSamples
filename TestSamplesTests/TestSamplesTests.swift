@@ -3,11 +3,11 @@
 //  TestSamplesTests
 //
 //  Created by kodam on 2015/08/04.
-//  Copyright © 2015年 kodam. All rights reserved.
+//  Copyright (c) 2015年 kodam. All rights reserved.
 //
 
+import UIKit
 import XCTest
-@testable import TestSamples
 
 class TestSamplesTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class TestSamplesTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
     }

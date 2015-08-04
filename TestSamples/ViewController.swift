@@ -3,7 +3,7 @@
 //  TestSamples
 //
 //  Created by kodam on 2015/08/04.
-//  Copyright © 2015年 kodam. All rights reserved.
+//  Copyright (c) 2015年 kodam. All rights reserved.
 //
 
 import UIKit
